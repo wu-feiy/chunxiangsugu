@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>醇香溯古</title>
+    <style>
+        body {
+            font-family: "Microsoft YaHei", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f5f0;
+            color: #333;
+        }
+        header {
+            background-color: #8b0000;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            opacity: 0.8;
+        }
+        html::before {
+ 
+             content: "";
+             position: fixed;
+             z-index: -1;
+             width: 100%;
+             height: 100%;
+             background-image: url(image/zhuye.png);
+             background-size: cover;
+             opacity: 60%; 
+}
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+            opacity: 0.9;
+        }
+        .product-section {
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+             opacity: 0.9;
+        }
+        .product-title {
+            color: #8b0000;
+            border-bottom: 2px solid #d2b48c;
+            padding-bottom: 10px;
+            margin-top: 0;
+             opacity: 0.9;
+        }
+        .product-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 20px;
+             opacity: 0.9;
+        }
+        .product-img {
+            flex: 1;
+            min-width: 300px;
+            overflow: hidden;
+            border-radius: 8px;
+             opacity: 0.9;
+        }
+        .product-img img {
+            width: 100%;
+            border-radius: 8px;
+            cursor: pointer;
+            transition:opacity 0.3s,transform 0.3s;
+            transform-origin: center center;
+        }
+        .product-img img:hover {
+            opacity: 0.9;
+            transform: scale(1.05);
+        }
+        .product-info {
+            flex: 1;
+            min-width: 300px;
+        }
+        .fenjiu-link {
+            display: inline-block;
+            margin: 15px 0;
+            padding: 10px 20px;
+            background-color: #8b0000;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s,border-radius 0.3s,transform 0.3s;
+        }
+        .chencu-link:hover {
+            /* background-color: #6d0000; */
+            background-color:  white;
+            color:#8b0000;
+            border-radius: 12px;
+            transform: translateY(-8px);
+        }
+        .chencu-link {
+            display: inline-block;
+            margin: 15px 0;
+            padding: 10px 20px;
+            background-color: #8b0000;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s,border-radius 0.3s,transform 0.3s;
+        }
+        .fenjiu-link:hover {
+             background-color:  white;
+            color:#8b0000;
+            border-radius: 12px;
+            transform: translateY(-8px);
+        }
+        .feature-list {
+            list-style-type: disc;
+            padding-left: 20px;
+            line-height: 1.8;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+            margin-top: 50px;
+            opacity: 0.9;
+        }
+        .practice-result {
+            background-color: #fff8e8;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            /* display: none; */
+            opacity: 0.95;
+        }
+        .practice-title {
+            color: #8b0000;
+            border-bottom: 2px solid #d2b48c;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .practice-content {
+            line-height: 1.8;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>醇香溯古</h1>
+        <p>千年工艺传承，品味山西味道</p >
+    </header>
+
+    <div class="container">
+        <section class="product-section">
+            <h2 class="product-title">山西汾酒</h2>
+            <div class="product-content">
+                <div class="product-img">
+                    <a href="html/fenjiu-category.html" target="_blank">
+                        <img src="image/jiu.jpg" alt="山西汾酒">
+                    </a>
+                </div>
+                <div class="product-info">
+                    <h3>核心特点</h3>
+                    <ul class="feature-list">
+                        <li>中国传统名酒，清香型白酒典型代表</li>
+                        <li>始于南北朝，拥有1500余年酿造历史</li>
+                        <li>高粱为原料，大麦豌豆制曲，清蒸清烧工艺</li>
+                        <li>酒体清澈，口感清香纯正、绵甜爽净</li>
+                    </ul>
+                    <a href="html/fenjiu-category.html" target="_blank" class="fenjiu-link">
+                        点击查看 → 汾酒全部分类与详细介绍
+                    </a >
+                    <h3>文化地位</h3>
+                    <p>中国"八大名酒"之一，被誉为"最早国酒"，是山西文化名片，承载北方白酒酿造智慧。</p >
+                </div>
+            </div>
+        </section>
+
+        <section class="product-section">
+            <h2 class="product-title">山西陈醋</h2>
+            <div class="product-content">
+                <div class="product-img">
+                      <a href="html/chencu-category.html" target="_blank">
+                        <img src="image/cu.jpg" alt="山西陈醋">
+                      </a>
+                </div>
+                <div class="product-info">
+                    <h3>核心特点</h3>
+                    <ul class="feature-list">
+                        <li>中国四大名醋之首，以"酸、香、甜、绵、鲜"著称</li>
+                        <li>高粱麸皮为原料，"蒸、酵、熏、淋、陈"五步工艺</li>
+                        <li>陈酿至少12个月，越陈越香，含氨基酸等营养成分</li>
+                    </ul>
+                    <a href="html/chencu-category.html" target="_blank" class="chencu-link">点击查看 → 陈醋分类与介绍</a >
+                    <h3>食用场景</h3>
+                    <p>适用于凉拌、热炒、腌制，是中式烹饪必备调味品，稀释后少量饮用可助力消化。</p >
+                </div>
+            </div>
+        </section>
+        <!-- <section class="practice-result" id="practice-result">
+            <h2 class="practice-title">醇香溯古社会实践小队 · 实践成果</h2>
+            
+        </section> -->
+    </div>
+
+    <footer>
+        <p>© 2024 山西特色产品展示 | 千年工艺，匠心传承</p >
+    </footer>
+</body>
+</html>
