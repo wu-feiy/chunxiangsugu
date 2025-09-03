@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>醇香溯古</title>
+    <style>
+        body {
+            font-family: "Microsoft YaHei", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f5f0;
+            color: #333;
+        }
+        header {
+            background-color: #8b0000;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            opacity: 0.8;
+        }
+        html::before {
+             content: "";
+             position: fixed;
+             z-index: -1;
+             width: 100%;
+             height: 100%;
+             background-image: url(../image/zhuye.png);
+             background-size: cover;
+             opacity:0.6;
+}
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+            opacity: 0.8;
+        }
+        .back-link {
+            background-color: rgb(209, 199, 199);
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #8b0000;
+            text-decoration: none;
+            display: inline-block;
+            margin: 15px 0;
+            padding: 10px 20px;
+            border-radius: 4px;
+            opacity: 0.7;
+             transition: background-color 0.3s,coler 0.3s,border-radius 0.3s;
+        }
+        .back-link:hover {
+            background-color: #6d0000;
+            color:rgb(209, 199, 199);
+            border-radius: 12px;
+        }
+        .category-section {
+            background-color: white;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .category-title {
+            color: #8b0000;
+            border-left: 4px solid #d2b48c;
+            padding-left: 15px;
+            margin-top: 0;
+        }
+        .category-desc {
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+        .category-img {
+            width: 100%;
+            /* max-height: 300px; */
+            object-fit: cover;
+            border-radius: 6px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>山西汾酒 - 全部分类与详细介绍</h1>
+    </header>
+
+    <div class="container">
+        <a href="../index.html" class="back-link">← 返回醇香溯古主页面</a >
+        <section class="category-section">
+            <h2 class="category-title">1. 玻汾系列（大众经典款）</h2>
+            <img src="../image/bofen.jpg" alt="玻汾系列" class="category-img">
+            <p class="category-desc">
+                性价比之王，面向大众消费市场，是汾酒最基础也最畅销的系列。采用传统清香工艺，口感清爽绵甜，度数多为42°、53°，包装为透明玻璃瓶，简约实用。
+            </p >
+            <p class="category-desc"><strong>代表产品</strong>：黄盖玻汾（53°）、红盖玻汾（42°）、出口玻汾</p >
+        </section>
+        <section class="category-section">
+            <h2 class="category-title">2. 青花汾酒系列（高端商务款）</h2>
+            <img src="../image/qinghua.jpg" alt="青花汾酒系列" class="category-img">
+            <p class="category-desc">
+                汾酒高端产品线，定位商务宴请、礼品市场。采用陈年老酒勾调，酒体更醇厚，香气更浓郁，包装以青花瓷为设计元素，极具文化底蕴，陈酿年份标注清晰。
+            </p >
+            <p class="category-desc"><strong>代表产品</strong>：青花20（陈酿20年）、青花30·复兴版、青花40·中国龙</p >
+        </section>
+        <section class="category-section">
+            <h2 class="category-title">3. 老白汾酒系列（中端品质款）</h2>
+            <img src="../image/laobai.jpg" alt="老白汾酒系列" class="category-img">
+            <p class="category-desc">
+                介于玻汾与青花之间的中端系列，主打"陈香"特点，采用5年以上基酒勾调，口感比玻汾更绵柔，略带陈香，包装以红色、金色为主，适合家庭聚会、朋友宴请。
+            </p >
+            <p class="category-desc"><strong>代表产品</strong>：老白汾10、老白汾15、封坛15</p >
+        </section>
+        <section class="category-section">
+            <h2 class="category-title">汾酒核心酿造工艺</h2>
+             <img src="../image/fenjiuniang.jpg" alt="酿造" class="category-img">
+            <p class="category-desc">
+                汾酒采用独有的"清蒸清烧二次清"工艺，全程遵循"清字当头"原则：
+            </p >
+            <ol>
+                <li>清蒸辅料：辅料（稻壳）单独清蒸，去除杂味</li>
+                <li>清烧酒醅：发酵后的酒醅单独蒸馏，保证酒体纯净</li>
+                <li>二次清：发酵、蒸馏两次循环，提升酒质与出酒率</li>
+            </ol>
+            <p class="category-desc">原料仅用高粱、大麦、豌豆，无任何添加剂，确保清香型白酒的"纯、净、爽"特质。</p >
+        </section>
+    </div>
+</body>
+</html>
